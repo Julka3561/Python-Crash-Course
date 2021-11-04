@@ -1,0 +1,21 @@
+langs = ['English', 'French', 'Italian', 'Russian', 'German', 'Norvegian', 'Suahili', 'Chineese', 'Japanese']
+print(f'Исходный список: \n{langs}')
+print(f'Величина исходного списка: {len(langs)}')
+langs[3] = 'Arabian'
+print(f'Замена элемента присваиванием: \n{langs}')
+langs.append('Finnish')
+print(f'Добавление элемента в конец списка: \n{langs}')
+langs.insert(4,'Ukrainian')
+print(f'Вставка элемента по индексу в список: \n{langs}')
+del langs[-1]
+print(f'Удаление элемента инструкцией del: \n{langs}')
+langs.pop(0)
+print(f'Удаление элемента методом pop: \n{langs}')
+langs.remove('German')
+print(f'Удаление элемента по содержимому методом remove: \n{langs}')
+langs.sort()
+print(f'Необратимая сортировка списка методом sort: \n{langs}')
+langs.reverse()
+print(f'Обратимый разворот списка методом reverse: \n{langs}')
+print (f'Обратимая сортировка списка методом sort: \n{sorted(langs)}')
+print(f'Величина конечного списка: {len(langs)}')
