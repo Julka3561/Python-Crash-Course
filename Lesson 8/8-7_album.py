@@ -6,11 +6,6 @@ def make_album(name, title, number_of_songs=None):
     }
     return album
 
-while (True):
-    token = input("Continue? (y/n) ")
-    if( token == 'n'):
-        break
-    name = input('Enter artist name: ')
-    title = input ('Enter album title: ')
-    num_of_songs = input('Enter number of songs in album: ')
-    print(make_album(name, title, num_of_songs))
+
+print(make_album('Elton John', 'Lion King'))
+print(make_album('Sting', 'Desert Rose', '12'))
