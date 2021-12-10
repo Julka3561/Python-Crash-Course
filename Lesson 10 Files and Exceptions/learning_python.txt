@@ -1,0 +1,2 @@
+In Python you can model realworld objects.
+In Python you can white many useful programs.
